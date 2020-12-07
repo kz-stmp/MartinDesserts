@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 48px;
+    background-color: #EBA234;
+}
+/* menu button start*/
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn-burger {
+    width: 28px;
+    height: 2px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+.menu-btn-burger::before,
+.menu-btn-burger::after {
+    content:'';
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+.menu-btn-burger::before {
+    transform: translateY(-10px);
+}
+.menu-btn-burger::after {
+    transform: translateY(10px);
+}
+.menu-btn.open .menu-btn-burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn-burger::before {
+    transform: rotate(45deg) translate(35px, -35px)
+}
+.menu-btn.open .menu-btn-burger::after {
+    transform: rotate(-45deg) translate(35px, 35px)
+}
+/*menu button end*/
+/*menu*/
+.receitas {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    font-family: 'Kalam', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    animation: fadeIn 0.5s ease-in-out;
+}
+.receitas p {
+    font-size: 17pt;
+    line-height: 2rem;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 0.8
+    }
+}
+.receitas h2 {
+    margin-top: 2.5rem;
+}
+.receitas h1 {
+    font-family: 'Cabin', sans-serif;
+    margin-top: 1rem;
+}
+/*menu end*/
+
+main {
+    background-image: url(images/cheesecake-1578695_19201.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.container {
+    padding-top: 550px;
+}
+
+.boas {
+    font-family: 'Molle', cursive, sans-serif;
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: 45px;
+    color: #CD8923;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.l1 {
+    padding:0;
+    border: 1px solid white;
+    width: 60%;
+}
+#pie {
+    width: 26px;
+}
+.mart {
+    font-family: 'Cabin', cursive, sans-serif;
+    font-size: 24px;
+    color: white;
+    
+}
+.btn-link {
+    background-color: #CD8923;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.temos {
+    font-family: 'Kalam', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin-block-start: 2em;
+}
+.ftleg {
+    font-family: 'Cabin', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+.descrit {
+    width: 287px;
+    color: #787878;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+}
+
+#pie2{
+    width: 22px;
+    padding-top: 10px;
+}
+.mart2 {
+    font-family: 'Cabin', cursive, sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+.contacts {
+    color: white;
+    text-align: center;
+    font-family: 'Kalam', sans-serif;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+.siga {
+    font-family: 'Kalam', italic, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+.copy {
+    width: 90%;
+    border: 0.2px solid white; 
+}
+.right  {
+    font-family: 'Cabin', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
