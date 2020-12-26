@@ -8,6 +8,7 @@ header {
     height: 48px;
     background-color: #EBA234;
 }
+
 /* menu button start*/
 .menu-btn {
     position: relative;
@@ -15,17 +16,16 @@ header {
     justify-content: center;
     align-items: center;
     width: 48px;
-    height: 52px;
+    height: 50px;
     left: 0px;
     top: 0px;
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
-
 .menu-btn-burger {
     width: 28px;
     height: 2px;
-    background: white;
+    background: black;
     box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
     transition: all .5s ease-in-out;
 }
@@ -35,7 +35,7 @@ header {
     position: absolute;
     width: 28px;
     height: 2px;
-    background: white;
+    background: black;
     box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
     transition: all .5s ease-in-out;
 }
@@ -57,6 +57,13 @@ header {
     transform: rotate(-45deg) translate(35px, 35px)
 }
 /*menu button end*/
+
+/*perfil*/
+#perfil {
+    position: absolute;
+    left:88vw;
+}
+
 /*menu*/
 .receitas {
     position: absolute;
