@@ -72,14 +72,18 @@ header {
     display: inline-block;
     align-content: center;
     text-align: center;
-    font-family: 'Kalam', sans-serif;
+    font-family: 'Cabin', sans-serif;
     width: 100vw;
     height: 100vh;
     animation: fadeIn 0.5s ease-in-out;
 }
+.receitas h2 {
+    font-size: 1.6em;
+    margin-top: 2.5rem;
+}
 .receitas p {
-    font-size: 17pt;
-    line-height: 2rem;
+    font-size: 14pt;
+    line-height: 1.5rem;
 }
 @keyframes fadeIn {
     from {
@@ -89,13 +93,8 @@ header {
         opacity: 0.8
     }
 }
-.receitas h2 {
-    margin-top: 2.5rem;
-}
-.receitas h1 {
-    font-family: 'Cabin', sans-serif;
-    margin-top: 1rem;
-}
+
+
 /*menu end*/
 
 main {
@@ -166,7 +165,7 @@ footer {
 }
 .mart2 {
     font-family: 'Cabin', cursive, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
 
 }
@@ -176,13 +175,14 @@ footer {
     font-family: 'Kalam', sans-serif;
     line-height: 1.5rem;
     margin-top: 2rem;
+    font-size: 10pt;
 }
 .siga {
     font-family: 'Kalam', italic, sans-serif;
     color: white;
     text-align: center;
-    font-size: 16px;
-    padding-bottom: 1rem;
+    font-size: 10pt;
+    padding-bottom: 0.2rem
 }
 .copy {
     width: 90%;
